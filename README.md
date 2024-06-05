@@ -1,6 +1,5 @@
-# EngrPractice
-ENGR103 Game
-simain says on the adafruit circuit playground
+# ENGR103 Game
+Simon says on the adafruit circuit playground
 
 --------------------------OVERVIEW---------------------------------------------
 You will be ask to do a task like pressing a button or shaking the device
