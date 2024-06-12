@@ -3,7 +3,7 @@ Simon says on the adafruit circuit playground
 
 --------------------------OVERVIEW---------------------------------------------
 
-You will be ask to do a task like pressing a button or shaking the device
+You will be ask to do a task like pressing a button or touch somthing to change the capacity (used a nail attached to an aligator clip on pin A1)
 Each successful task will increase over all score
 As you get more tasks right the amount of time you have to complete the task will decrease until the wrong task is done or you run out of time.
 
@@ -17,7 +17,7 @@ moving the slide switch will start the game
 
 
 The display will tell the next required task
-If the right thing is done it will play a quick happy tune and diplay you total score
+If the right thing is done it will play a quick happy tune light up green and diplay you're total score
 then it will display the next task
 
 After 3 sucessful task it will increase the difficutly to the next level. This will lower the time you have to complete taskes.
@@ -31,7 +31,7 @@ If you run out of time or press the wrong button all the lights will flash red a
   -----------Inputs---------
   
   Left and Right buttons
-  Accelerometer
+  contact (capacity CircuitPlayground.readCap(6);)
 
 
   -----------Outputs--------
