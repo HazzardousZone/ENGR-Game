@@ -1,9 +1,9 @@
 # ENGR103 Game
-Simon says on the adafruit circuit playground
+Bob-it inspired game desinged for and on the adafruit circuit playground
 
 --------------------------OVERVIEW---------------------------------------------
 
-You will be ask to do a task like pressing a button or touch somthing to change the capacity (used a nail attached to an aligator clip on pin A1)
+You will be ask to do a task like pressing a button or touch something to change the capacity (used a nail attached to an aligator clip on pin A1)
 Each successful task will increase over all score
 As you get more tasks right the amount of time you have to complete the task will decrease until the wrong task is done or you run out of time.
 
@@ -30,8 +30,9 @@ If you run out of time or press the wrong button all the lights will flash red a
   
   -----------Inputs---------
   
-  Left and Right buttons
-  contact (capacity CircuitPlayground.readCap(6);)
+  Left and Right buttons (pin 4 & pin 5)
+  
+  Contact sensor (capacity, CircuitPlayground.readCap(6);)
 
 
   -----------Outputs--------
